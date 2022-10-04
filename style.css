@@ -9,18 +9,43 @@ body{
     font-size: 20px;
 }
 
+/* HEADER */
+
 header{
-    height: 584px;
-    background-color: lightblue;
+    
+}
+.topbar{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: baseline;
+}
+
+#ig-img{
+    width: 100%;
+    height: 80px;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
 
 header .topbar{
     height: 80px;
     margin: 0 auto;
     max-width: 1200px;
+    padding: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: rgba(37,94,233,255);
+}
+
+#accedi{
+    background-color: #fff;
+    border-radius: 10px;
 }
 
 .jumbotron{
@@ -29,5 +54,39 @@ header .topbar{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: blue;
-}  
+
+} 
+
+.link-header{
+    content: none;
+}
+
+
+
+
+
+
+
+
+
+/* MAIN */
+.flex-container{
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 800px;
+    padding: 50px 0 50px 0;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.flex-container-gray{
+    height: 100%;
+    width: 1400px;
+    background-color: gray;
+}
+
+.big-column{
+
+}
